@@ -13,12 +13,12 @@ Aliyun oss filesystem storage adapter for laravel 5. You can use Aliyun OSS just
 ##Installation
 In order to install AliOSS-storage, just add
 
-    "yeesuu/laravel-oss": "^1.0"
+    "olivefm/laravel-oss": "^1.0"
 
 to your composer.json. Then run `composer install` or `composer update`.  
 Or you can simply run below command to install:
 
-    "composer require yeesuu/laravel-oss:^1.0"
+    "composer require olivefm/laravel-oss:^1.0"
     
 Then in your `config/app.php` add this line to providers array:
 ```php
