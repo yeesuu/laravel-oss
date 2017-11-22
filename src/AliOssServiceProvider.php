@@ -1,9 +1,9 @@
 <?php
 
-namespace FM\Olive\AliOSS;
+namespace OliveFM\AliOSS;
 
-use Olive\AliOSS\Plugins\PutFile;
-use Olive\AliOSS\Plugins\PutRemoteFile;
+use OliveFM\AliOSS\Plugins\PutFile;
+use OliveFM\AliOSS\Plugins\PutRemoteFile;
 use Storage;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;

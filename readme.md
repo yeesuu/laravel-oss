@@ -22,7 +22,7 @@ Or you can simply run below command to install:
     
 Then in your `config/app.php` add this line to providers array:
 ```php
-FM\Olive\AliOSS\AliOssServiceProvider::class,
+OliveFM\AliOSS\AliOssServiceProvider::class,
 ```
 ## Configuration
 Add the following in app/filesystems.php:

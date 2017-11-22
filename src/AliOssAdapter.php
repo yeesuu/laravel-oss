@@ -1,5 +1,5 @@
 <?php
-namespace FM\Olive\AliOSS;
+namespace OliveFM\AliOSS;
 
 use Dingo\Api\Contract\Transformer\Adapter;
 use League\Flysystem\Adapter\AbstractAdapter;
