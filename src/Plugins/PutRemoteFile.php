@@ -1,5 +1,5 @@
 <?php
-namespace Olive\AliOSS\Plugins;
+namespace FM\Olive\AliOSS\Plugins;
 use League\Flysystem\Config;
 use League\Flysystem\Plugin\AbstractPlugin;
 class PutRemoteFile extends AbstractPlugin

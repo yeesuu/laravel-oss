@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\AliOSS\Plugins;
+namespace FM\Olive\AliOSS\Plugins;
 
 use Illuminate\Support\Facades\Log;
 use League\Flysystem\Config;

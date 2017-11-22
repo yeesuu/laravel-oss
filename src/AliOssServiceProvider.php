@@ -1,6 +1,6 @@
 <?php
 
-namespace Olive\AliOSS;
+namespace FM\Olive\AliOSS;
 
 use Olive\AliOSS\Plugins\PutFile;
 use Olive\AliOSS\Plugins\PutRemoteFile;
