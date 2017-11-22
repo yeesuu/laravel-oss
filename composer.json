@@ -1,0 +1,21 @@
+{
+    "name": "olive/laravel-oss",
+    "description": "aliyun oss filesystem storage for laravel 5+",
+    "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
+    "homepage": "https://github.com/yeesuu/laravel-oss",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yeesuu",
+            "email": "yeesuu@gmail.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Olive\\AliOSS\\": "src/"
+        }
+    }
+}
