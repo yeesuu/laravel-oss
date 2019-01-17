@@ -4,7 +4,7 @@ namespace OliveFM\AliOSS;
 
 use OliveFM\AliOSS\Plugins\PutFile;
 use OliveFM\AliOSS\Plugins\PutRemoteFile;
-use Storage;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
