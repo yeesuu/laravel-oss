@@ -40,10 +40,12 @@ class AliOssServiceProvider extends ServiceProvider
             $ssl       = empty($config['ssl']) ? false : $config['ssl'];
             $isCName   = empty($config['isCName']) ? false : $config['isCName'];
             $debug     = empty($config['debug']) ? false : $config['debug'];
-            
+            $securityToken = empty($config['securityToken']) ? null : $config['securityToken'];
             //if($debug) Log::debug('OSS config:', $config);
 
-            $client  = new OssClient($accessId, $accessKey, $epInternal, $isCName);
+            //修复上传使用cdn自定义域名报错的问题
+            //解决方案:上传使用阿里云节点,只有显示使用自定义域名
+            $client  = new OssClient($accessId, $accessKey, $epInternal, false, $securityToken);
             $adapter = new AliOssAdapter($client, $bucket, $endPoint, $ssl, $isCName, $debug, $cdnDomain);
 
             //Log::debug($client);
